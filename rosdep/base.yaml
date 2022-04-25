@@ -1,3 +1,7 @@
+openvino:
+  ubuntu:
+    pip: 
+      packages: [openvino]
 ace:
   arch: [ace]
   debian: [libace-dev]
