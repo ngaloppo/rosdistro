@@ -1,7 +1,8 @@
 openvino:
   ubuntu:
-    pip: 
-      packages: [openvino]
+    focal:
+      pip: 
+        packages: [openvino]
 ace:
   arch: [ace]
   debian: [libace-dev]
