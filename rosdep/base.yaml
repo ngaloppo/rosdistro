@@ -1,8 +1,6 @@
 openvino:
   ubuntu:
-    focal:
-      pip: 
-        packages: [openvino]
+    focal: [openvino-2022.1.0]
 ace:
   arch: [ace]
   debian: [libace-dev]
